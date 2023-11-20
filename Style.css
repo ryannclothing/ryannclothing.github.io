@@ -1,0 +1,114 @@
+
+/* CSS Document */
+body {
+    background-color: #FFFFFF; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {color: black; }
+h1 {color: black; }
+h2{color: black; }
+header{
+	text-align: center;
+	background-color: white;
+	color: black;
+	padding: 20px;
+}
+
+/* Common to all tags */
+h1, h2, p { font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}		
+/*Using class and ID */
+#main { border: #ccc solid 2px; padding: 5px;}
+.myimage {width: 200px;}
+.center { text-align: center; }
+
+ nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 0 20px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #ff4500;
+        }
+
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color:white;
+            color: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .collection-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .collection-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .collection-item:hover {
+            transform: scale(1.05);
+        }
+
+        .item-image {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+        .item-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .item-description {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .item-price {
+            color: #e44d26;
+            font-size: 1.1em;
+        }
+
+        select {
+            margin: 10px 0;
+            padding: 8px;
+            font-size: 1em;
+        }
+
+
+
